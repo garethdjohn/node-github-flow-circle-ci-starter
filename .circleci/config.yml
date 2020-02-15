@@ -69,8 +69,8 @@ workflows:
       - install:
           filters:
             branches:
-              only:
-                - /^master$/
+              ignore:
+                - /.*/
             tags:
               only:
                 - /^v\d+\.\d+\.\d+/
@@ -79,8 +79,8 @@ workflows:
             - install
           filters:
             branches:
-              only:
-                - /^master$/
+              ignore:
+                - /.*/
             tags:
               only:
                 - /^v\d+\.\d+\.\d+/
