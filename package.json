@@ -26,6 +26,6 @@
   "homepage": "https://github.com/GarethDJohn/node-github-flow-circle-ci-starter#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   }
 }
